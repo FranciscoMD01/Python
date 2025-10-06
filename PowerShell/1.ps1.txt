@@ -1,0 +1,14 @@
+#funciones
+
+function suma
+{
+	param (
+	[init] $n1,
+	[init] $n2;
+		)
+	$suma=$n1+$n2
+	return $suma
+
+}
+$resultado= suma -nl 3 -n2 7
+Write-host $resultado
